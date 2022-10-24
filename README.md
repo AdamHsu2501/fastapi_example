@@ -13,8 +13,11 @@
    ```
    pipenv shell
    ```
-4. Run app
+4. Run app `uvicorn [model]:[var] --reload`
    ```
-   <!-- uvicorn [model]:[var] --reload -->
    uvicorn main:app --reload
    ```
+5. Open website `http://127.0.0.1:8000`
+6. Review APIs
+   `http://127.0.0.1:8000/docs` or
+   `http://127.0.0.1:8000/redoc`
